@@ -20,6 +20,7 @@ Requirements
 
 Usage
 -----
+  
   chmod u+x ./zwotopflop.rb
   ./zwotopflop.rb TopBild.jpg FlopBild.png
 
