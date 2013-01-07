@@ -10,19 +10,23 @@ Getestet mit Ruby 1.9.3
 
 Requirements
 ------------
-* ImageMagick
-
-  e.g.: brew install imagemagick, apt-get install imagemagick, ...
+* ImageMagick, z.B. via
+```
+brew install imagemagick
+```
 
 * Tupalo Mini Magick:
+```
+gem install tupalo-mini_magick
+```
 
-  gem install tupalo-mini_magick
 
 Usage
 -----
-  
-  chmod u+x ./zwotopflop.rb
-  ./zwotopflop.rb TopBild.jpg FlopBild.png
+```
+chmod u+x ./zwotopflop.rb
+./zwotopflop.rb TopBild.jpg FlopBild.png
+```
 
 Bildformate müssten egal sein, halt alles, was ImageMagick frisst.
 
